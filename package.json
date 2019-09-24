@@ -1,0 +1,36 @@
+{
+  "name": "gulp-pro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^6.0.0",
+    "gulp-autoprefixer": "^7.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-requirejs": "^1.3.0",
+    "gulp-uglify": "^3.0.2",
+    "webpack": "^4.40.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development gulp dist",
+    "pro": "cross-env NODE_ENV=production gulp dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
